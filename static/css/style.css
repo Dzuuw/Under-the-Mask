@@ -453,6 +453,13 @@
         height: 45px;
         color: rgba(245, 245, 220, 0.171);
         text-align: center;
+        clear: both;
+    }
+
+    #id {
+        width: 50%;
+        float: none;
+        margin: auto;
     }
 
 }
@@ -593,6 +600,7 @@
         height: 45px;
         color: rgba(245, 245, 220, 0.171);
         text-align: center;
+        margin-top: 25px;
     }
 
     .pop-up:hover {
@@ -746,6 +754,8 @@
         height: 45px;
         color: rgba(245, 245, 220, 0.171);
         text-align: center;
+        clear: both;
+        margin-top: 25px;
     }
 
     .pop-up:hover {
@@ -754,6 +764,12 @@
     }
 
     #c-rules {
+        width: 50%;
+        float: none;
+        margin: auto;
+    }
+    
+    #id {
         width: 50%;
         float: none;
         margin: auto;
