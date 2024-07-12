@@ -1,0 +1,879 @@
+@media screen and (max-width: 576px) {
+    body {
+        background-color: #000000;
+        color: white;
+        margin: 0;
+
+    }
+
+    #titulo {
+        background-image: url("https://i.pinimg.com/originals/4a/13/e1/4a13e1d80f844602befbf80076ddc097.jpg");
+        background-color: rgb(173, 41, 41);
+        background-blend-mode: multiply;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 180px;
+        width: 80%;
+        margin: 0px 10%;
+        position: relative;
+    }
+
+    sub {
+        font-size: 16px;
+        width: 60%;
+        margin: auto;
+        display: block;
+    }
+
+    #utm {
+        width: 80%;
+        margin: 0px 10%;
+        position: absolute;
+        top: 45%;
+        text-decoration: underline;
+        font-size: 42px;
+    }
+
+    h1,
+    h2 {
+        width: 75%;
+        margin: auto;
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 35px;
+    }
+
+    div.music {
+        width: 75%;
+        margin: auto;
+    }
+
+    ul {
+        list-style: decimal-leading-zero;
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    li {
+        margin-bottom: 18px;
+    }
+
+    .introducao {
+        text-align: center;
+        width: 80%;
+        margin: 15px auto;
+        font-size: 17px;
+    }
+
+    div.bloco {
+        background-color: rgb(78, 78, 78);
+        width: 70%;
+        clear: both;
+        margin: 15px auto;
+        border-radius: 10px;
+        border: 1px white solid;
+    }
+
+    a {
+        display: block;
+    }
+
+    #cover {
+        height: 390px;
+        margin: auto;
+        display: block;
+        background-color: 78, 78, 78;
+        border: 2px white solid;
+        border-radius: 15px;
+    }
+
+
+
+    div p {
+        padding: 20px;
+        text-align: justify;
+        margin: 30px 10px;
+        font-size: 17px;
+    }
+
+    div.bloco img {
+        height: 180px;
+        width: 240px;
+        border-radius: 15px;
+        border: 1px black solid;
+        display: block;
+        margin: auto;
+    }
+
+    footer {
+        background-color: rgb(20, 20, 20);
+        height: 45px;
+        color: rgba(245, 245, 220, 0.171);
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width: 576px) {
+    body {
+        background-color: #000000;
+        color: white;
+    }
+
+    #titulo {
+        background-image: url("https://i.pinimg.com/originals/4a/13/e1/4a13e1d80f844602befbf80076ddc097.jpg");
+        background-color: rgb(173, 41, 41);
+        background-blend-mode: multiply;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 200px;
+        margin: 0px 10%;
+        position: relative;
+    }
+
+    sub {
+        font-size: 16px;
+        width: 60%;
+        margin: auto;
+        display: block;
+    }
+
+    #utm {
+        width: 80%;
+        margin: 0px 10%;
+        position: absolute;
+        top: 35%;
+        text-decoration: underline;
+        font-size: 55px;
+    }
+
+    h1,
+    h2 {
+        width: 66%;
+        margin: auto;
+        text-align: center;
+        font-size: 38px;
+        margin-bottom: 35px;
+    }
+
+    div.music {
+        width: 65%;
+        margin: auto;
+    }
+
+    ul {
+        list-style: decimal-leading-zero;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    li {
+        margin-bottom: 18px;
+    }
+
+    .introducao {
+        text-align: center;
+        width: 80%;
+        margin: 15px auto;
+        font-size: 20px;
+    }
+
+    div.bloco {
+        background-color: rgb(78, 78, 78);
+        width: 70%;
+        clear: both;
+        margin: 15px auto;
+        border-radius: 10px;
+        border: 1px white solid;
+    }
+
+    a {
+        display: block;
+    }
+
+    #cover {
+        height: 520px;
+        margin: auto;
+        display: block;
+        background-color: 78, 78, 78;
+        border: 2px white solid;
+        border-radius: 15px;
+    }
+
+
+
+    div p {
+        padding: 20px;
+        text-align: justify;
+        margin: 30px 10px;
+        font-size: 20px;
+    }
+
+    div.bloco img {
+        height: 300px;
+        width: 360px;
+        border-radius: 15px;
+        border: 1px black solid;
+        display: block;
+        margin: auto;
+    }
+
+    footer {
+        background-color: rgb(20, 20, 20);
+        height: 45px;
+        color: rgba(245, 245, 220, 0.171);
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background-color: #000000;
+        color: white;
+        margin: 0;
+
+    }
+
+    #titulo {
+        background-image: url("https://i.pinimg.com/originals/4a/13/e1/4a13e1d80f844602befbf80076ddc097.jpg");
+        background-color: rgb(173, 41, 41);
+        background-blend-mode: multiply;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 270px;
+        margin: 0px 10%;
+        position: relative;
+    }
+
+    sub {
+        font-size: 16px;
+        width: 60%;
+        margin: auto;
+        display: block;
+    }
+
+    #utm {
+        width: 80%;
+        margin: 0px 10%;
+        position: absolute;
+        top: 42%;
+        text-decoration: underline;
+        font-size: 65px;
+    }
+
+    h1,
+    h2 {
+        width: 33%;
+        margin: auto;
+        text-align: center;
+        font-size: 45px;
+        margin-bottom: 33px;
+    }
+
+    div.music {
+        width: 55%;
+        margin: auto;
+    }
+
+    ul {
+        list-style: decimal-leading-zero;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    li {
+        margin-bottom: 18px;
+    }
+
+    .introducao {
+        text-align: center;
+        width: 80%;
+        margin: 15px auto;
+        font-size: 20px;
+    }
+
+    div.bloco {
+        background-color: rgb(78, 78, 78);
+        width: 70%;
+        clear: both;
+        margin: 15px auto;
+        border-radius: 10px;
+        border: 1px white solid;
+    }
+
+    a {
+        display: block;
+    }
+
+    #cover {
+        height: 520px;
+        margin: auto;
+        display: block;
+        background-color: 78, 78, 78;
+        border: 2px white solid;
+        border-radius: 15px;
+    }
+
+
+
+    div p {
+        padding: 20px;
+        text-align: justify;
+        margin: 30px 10px;
+        font-size: 18px;
+    }
+
+    div.bloco img {
+        height: 300px;
+        width: 360px;
+        border-radius: 15px;
+        border: 1px black solid;
+        display: block;
+        margin: auto;
+    }
+
+    footer {
+        background-color: rgb(20, 20, 20);
+        height: 45px;
+        color: rgba(245, 245, 220, 0.171);
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        background-color: #000000;
+        color: white;
+        margin: 0;
+
+    }
+
+    #titulo {
+        background-image: url("https://i.pinimg.com/originals/4a/13/e1/4a13e1d80f844602befbf80076ddc097.jpg");
+        background-color: rgb(173, 41, 41);
+        background-blend-mode: multiply;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 270px;
+        margin: 0px 10%;
+        position: relative;
+    }
+
+    sub {
+        font-size: 16px;
+        width: 60%;
+        margin: auto;
+        display: block;
+    }
+
+    #utm {
+        width: 80%;
+        margin: 0px 10%;
+        position: absolute;
+        top: 42%;
+        text-decoration: underline;
+        font-size: 65px;
+    }
+
+    h1,
+    h2 {
+        width: 33%;
+        margin: auto;
+        text-align: center;
+        font-size: 45px;
+        margin-bottom: 33px;
+    }
+
+    div.music {
+        width: 55%;
+        margin: auto;
+    }
+
+    ul {
+        list-style: decimal-leading-zero;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    li {
+        margin-bottom: 18px;
+    }
+
+    .introducao {
+        text-align: center;
+        width: 80%;
+        margin: 15px auto;
+        font-size: 20px;
+    }
+
+    div.bloco {
+        background-color: rgb(78, 78, 78);
+        width: 70%;
+        clear: both;
+        margin: 15px auto;
+        border-radius: 10px;
+        border: 1px white solid;
+    }
+
+    a {
+        display: block;
+    }
+
+    #cover {
+        height: 520px;
+        margin: auto;
+        display: block;
+        background-color: 78, 78, 78;
+        border: 2px white solid;
+        border-radius: 15px;
+    }
+
+
+
+    div p {
+        padding: 20px;
+        text-align: justify;
+        margin: 30px 10px;
+        font-size: 18px;
+    }
+
+    div.bloco img {
+        height: 300px;
+        width: 360px;
+        border-radius: 15px;
+        border: 1px black solid;
+        display: block;
+        margin: auto;
+    }
+
+    footer {
+        background-color: rgb(20, 20, 20);
+        height: 45px;
+        color: rgba(245, 245, 220, 0.171);
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        background-color: #000000;
+        color: white;
+        margin: 0;
+
+    }
+
+    #titulo {
+        background-image: url("https://i.pinimg.com/originals/4a/13/e1/4a13e1d80f844602befbf80076ddc097.jpg");
+        background-color: rgb(173, 41, 41);
+        background-blend-mode: multiply;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+        margin: 0px 10%;
+        position: relative;
+    }
+
+    sub {
+        font-size: 16px;
+        width: 45%;
+        margin: auto;
+        display: block;
+        margin-top: 31px;
+    }
+
+    #utm {
+        width: 80%;
+        margin: 0px 10%;
+        position: absolute;
+        top: 42%;
+        text-decoration: underline;
+        font-size: 90px;
+    }
+
+    h1,
+    h2 {
+        width: 66%;
+        margin: auto;
+        text-align: center;
+        font-size: 45px;
+        margin-bottom: 33px;
+        margin-top: 25px;
+    }
+
+    div.music {
+        width: 55%;
+        margin: auto;
+    }
+
+    ul {
+        list-style: decimal-leading-zero;
+        font-size: 18px;
+        margin-bottom: 20px;
+
+    }
+
+    li {
+        margin-bottom: 18px;
+    }
+
+    .introducao {
+        text-align: center;
+        width: 80%;
+        margin: 15px auto;
+        font-size: 20px;
+    }
+
+    div.bloco {
+        clear: both;
+        float: left;
+        background-color: rgb(78, 78, 78);
+        width: 70%;
+        clear: both;
+        margin: 15px;
+        border-radius: 10px;
+        border: 1px white solid;
+    }
+
+    #dir {
+        float: right;
+    }
+
+    a {
+        display: block;
+        margin-left: 40%;
+    }
+
+    #cover {
+        height: 360px;
+        background-color: 78, 78, 78;
+        border: 2px white solid;
+        border-radius: 15px;
+    }
+
+
+    div p {
+        padding: 20px;
+        text-align: justify;
+        margin: 30px 10px;
+        font-size: 18px;
+    }
+
+    div.bloco img {
+        height: 260px;
+        width: 300px;
+        border-radius: 15px;
+        border: 1px black solid;
+        display: block;
+        margin: 25px;
+        float: left;
+
+    }
+
+    #sistema {
+        position: relative;
+    }
+
+    #sist-infor {
+        width: 45%;
+        float: left;
+        position: absolute;
+        left: 100px;
+        top: 50px;
+    }
+
+    hr {
+        clear: both;
+    }
+
+    footer {
+        background-color: rgb(20, 20, 20);
+        height: 45px;
+        color: rgba(245, 245, 220, 0.171);
+        text-align: center;
+    }
+
+    .pop-up:hover {
+        transform: scale(1.009);
+        transition: transform 0.3s;
+    }
+
+    #c-rules {
+        width: 50%;
+        float: none;
+        margin: auto;
+    }
+
+}
+
+@media screen and (min-width: 1400px) {
+    body {
+        background-color: #000000;
+        color: white;
+        margin: 0;
+
+    }
+
+    #titulo {
+        background-image: url("https://i.pinimg.com/originals/4a/13/e1/4a13e1d80f844602befbf80076ddc097.jpg");
+        background-color: rgb(173, 41, 41);
+        background-blend-mode: multiply;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 600px;
+        margin: 0px 10%;
+        position: relative;
+    }
+
+    sub {
+        font-size: 18px;
+        width: 49%;
+        margin: auto;
+        display: block;
+        margin-top: 31px;
+    }
+
+    #utm {
+        width: 80%;
+        margin: 0px 10%;
+        position: absolute;
+        top: 42%;
+        text-decoration: underline;
+        font-size: 152px;
+    }
+
+    h1,
+    h2 {
+        width: 66%;
+        margin: auto;
+        text-align: center;
+        font-size: 45px;
+        margin-bottom: 33px;
+        margin-top: 28px;
+    }
+
+    div.music {
+        width: 45%;
+        margin: auto;
+    }
+
+    ul {
+        list-style: decimal-leading-zero;
+        font-size: 20px;
+        margin-bottom: 19px;
+        margin-bottom: 28px;
+
+    }
+
+    li {
+        margin-bottom: 18px;
+    }
+
+    .introducao {
+        text-align: center;
+        width: 50%;
+        margin: 15px auto;
+        font-size: 26px;
+    }
+
+    div.bloco {
+        clear: both;
+        float: left;
+        background-color: rgb(78, 78, 78);
+        width: 70%;
+        clear: both;
+        margin: 15px;
+        border-radius: 10px;
+        border: 1px white solid;
+    }
+
+    #dir {
+        float: right;
+    }
+
+    a {
+        display: block;
+        margin-left: 40%;
+    }
+
+    #cover {
+        height: 480px;
+        background-color: 78, 78, 78;
+        border: 2px white solid;
+        border-radius: 15px;
+    }
+
+
+    div p {
+        padding: 20px;
+        text-align: justify;
+        margin: 30px 10px;
+        font-size: 21px;
+        margin-top: 60px;
+    }
+
+    div.bloco img {
+        height: 260px;
+        width: 300px;
+        border-radius: 15px;
+        border: 1px black solid;
+        display: block;
+        margin: 25px;
+        float: left;
+
+    }
+
+    #sistema {
+        position: relative;
+    }
+
+    #sist-infor {
+        width: 45%;
+        float: left;
+        position: absolute;
+        left: 100px;
+        top: 50px;
+    }
+
+    hr {
+        clear: both;
+    }
+
+    footer {
+        background-color: rgb(20, 20, 20);
+        height: 45px;
+        color: rgba(245, 245, 220, 0.171);
+        text-align: center;
+    }
+
+    .pop-up:hover {
+        transform: scale(1.009);
+        transition: transform 0.3s;
+    }
+
+    #c-rules {
+        width: 50%;
+        float: none;
+        margin: auto;
+    }
+}
+
+/* body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+
+}
+
+.nav-audio{
+    float: right;
+    background-color: rgba(0, 136, 255, 0);
+    border: none;
+}
+
+#titulo{
+    background-image: url("https://i.pinimg.com/originals/4a/13/e1/4a13e1d80f844602befbf80076ddc097.jpg");
+    background-color: rgb(173, 41, 41);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    width: 80%;
+    margin: 0px 10%;
+    font-size: 110px;
+    position: relative;
+}
+
+sub{
+    font-size: 14px;
+    position: absolute;
+    left: 25.5%;
+}
+
+#utm{
+    width: 80%;
+    margin: 0px 10%;
+    position: absolute;
+    top: 240px;
+    text-decoration: underline;
+}
+
+.nav-btn:hover{
+    background-color: red;
+}
+
+h1, h2, div.music{
+    width: 33%;
+    margin-left: 33%;
+    margin-right: 33%;
+    text-align: center;
+    font-size: 45px;
+}
+
+ul{
+    list-style: decimal-leading-zero;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+li{
+    margin-bottom: 18px;
+}
+
+.introducao{
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 23px;
+}
+
+div.bloco{
+    background-color: rgb(78, 78, 78);
+    width: 70%;
+    clear: both;
+    margin: 15px 0px;
+    overflow: auto;
+    border-radius: 10px;
+    border: 1px white solid;
+}
+
+#cover{
+    height: 390px;
+    margin-right: 300px;
+    background-color: 78, 78, 78;
+    border: 2px white solid;
+    border-radius: 15px;
+}
+
+
+
+div p{
+    padding: 20px;
+    text-align: justify;
+    margin: 30px 10px;
+    font-size: 20px;
+}
+
+div.bloco img {
+    height: 240px; 
+    width: 300px;  
+    float: right; 
+    margin: 15px;
+    background-color: rgb(82, 64, 64);
+    border-radius: 15px;
+    border: 1px black solid;
+}
+
+.pop-up:hover{
+    transform:scale(1.009);
+    transition: transform 0.3s;
+}
+
+footer{
+    background-color: rgb(20, 20, 20);
+    height: 45px;
+    color: rgba(245, 245, 220, 0.171);
+    text-align: center;
+} */
