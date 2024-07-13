@@ -66,7 +66,7 @@
     }
 
     div.bloco {
-        background-color: rgb(78, 78, 78);
+        background-color: rgba(129, 41, 41, 0.555);
         width: 70%;
         clear: both;
         margin: 15px auto;
@@ -179,7 +179,7 @@
     }
 
     div.bloco {
-        background-color: rgb(78, 78, 78);
+        background-color: rgba(129, 41, 41, 0.555);
         width: 70%;
         clear: both;
         margin: 15px auto;
@@ -294,7 +294,7 @@
     }
 
     div.bloco {
-        background-color: rgb(78, 78, 78);
+        background-color: rgba(129, 41, 41, 0.555);
         width: 70%;
         clear: both;
         margin: 15px auto;
@@ -409,7 +409,7 @@
     }
 
     div.bloco {
-        background-color: rgb(78, 78, 78);
+        background-color: rgba(129, 41, 41, 0.555);
         width: 70%;
         clear: both;
         margin: 15px auto;
@@ -536,7 +536,7 @@
     div.bloco {
         clear: both;
         float: left;
-        background-color: rgb(78, 78, 78);
+        background-color: rgba(129, 41, 41, 0.555);
         width: 70%;
         clear: both;
         margin: 15px;
@@ -689,7 +689,7 @@
     div.bloco {
         clear: both;
         float: left;
-        background-color: rgb(78, 78, 78);
+        background-color: rgba(129, 41, 41, 0.555);
         width: 70%;
         clear: both;
         margin: 15px;
