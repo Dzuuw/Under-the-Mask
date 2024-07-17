@@ -1,3 +1,4 @@
+/* X-s */
 @media screen and (max-width: 576px) {
     body {
         background-color: #000000;
@@ -11,11 +12,10 @@
         background-color: rgb(173, 41, 41);
         background-blend-mode: multiply;
         background-repeat: no-repeat;
-        background-size: cover;
-        height: 180px;
-        width: 80%;
-        margin: 0px 10%;
-        position: relative;
+        background-size: 850px 420px;
+        background-position: center;
+        height: 410px;
+        margin: 0px;
     }
 
     sub {
@@ -26,12 +26,11 @@
     }
 
     #utm {
-        width: 80%;
-        margin: 0px 10%;
-        position: absolute;
-        top: 45%;
+        width: auto;
+        margin: auto;
+        padding: 200px 0px;
         text-decoration: underline;
-        font-size: 42px;
+        font-size: 67px;
     }
 
     h1,
@@ -39,7 +38,7 @@
         width: 75%;
         margin: auto;
         text-align: center;
-        font-size: 30px;
+        font-size: 45px;
         margin-bottom: 35px;
     }
 
@@ -50,7 +49,7 @@
 
     ul {
         list-style: decimal-leading-zero;
-        font-size: 15px;
+        font-size: 20px;
         margin-bottom: 20px;
     }
 
@@ -59,10 +58,11 @@
     }
 
     .introducao {
-        text-align: center;
+        text-align: justify;
+        text-align-last: center;
         width: 80%;
         margin: 15px auto;
-        font-size: 17px;
+        font-size: 20px;
     }
 
     div.bloco {
@@ -79,7 +79,7 @@
     }
 
     #cover {
-        height: 390px;
+        height: 600px;
         margin: auto;
         display: block;
         background-color: 78, 78, 78;
@@ -93,12 +93,12 @@
         padding: 20px;
         text-align: justify;
         margin: 30px 10px;
-        font-size: 17px;
+        font-size: 22px;
     }
 
     div.bloco img {
-        height: 180px;
-        width: 240px;
+        height: 300px;
+        width: 80%;
         border-radius: 15px;
         border: 1px black solid;
         display: block;
@@ -112,34 +112,51 @@
         text-align: center;
     }
 
-    #types{
+    #types {
         float: none;
         display: block;
         margin: auto;
         width: 80%;
     }
 
-    #types img{
-        display: block;
-        height: 400px;
-        float: none;
-        margin: auto;
-        margin-bottom: 25px;
-    }
-
-    h3{
+    h3 {
         width: 66%;
         margin: auto;
         text-align: center;
         font-size: 35px;
-        margin-bottom: 10px;
+        margin-bottom: 25px;
         margin-top: 25px;
     }
 
+    .back {
+        background-image: url("../tarot/senkai-yami-cover.jpg");
+        height: 490px;
+        margin: auto;
+        margin-bottom: 25px;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        transition: 1s;
+    }
+
+    .front{
+        transform: rotateY(180deg);
+        transition: 1s;
+    }
+
+    .desc{
+        opacity: 0;
+        text-align: center;
+        transition: 0.7s;
+    }
+
+
+    
 
 }
 
-@media screen and (min-width: 576px) {
+/* S */
+@media screen and (min-width: 577px) and (max-width: 767px) {
     body {
         background-color: #000000;
         color: white;
@@ -149,11 +166,9 @@
         background-image: url("https://i.pinimg.com/originals/4a/13/e1/4a13e1d80f844602befbf80076ddc097.jpg");
         background-color: rgb(173, 41, 41);
         background-blend-mode: multiply;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 200px;
-        margin: 0px 10%;
-        position: relative;
+        background-position: center;
+        background-size: 900px 500px;
+        height: 460px;
     }
 
     sub {
@@ -164,12 +179,11 @@
     }
 
     #utm {
-        width: 80%;
-        margin: 0px 10%;
-        position: absolute;
-        top: 35%;
+        padding: 200px 0;
+        width: auto;
+        text-align: center;
         text-decoration: underline;
-        font-size: 55px;
+        font-size: 77px;
     }
 
     h1,
@@ -250,14 +264,14 @@
         text-align: center;
     }
 
-    #types{
+    #types {
         float: none;
         display: block;
         margin: auto;
         width: 75%;
     }
 
-    #types img{
+    #types img {
         display: block;
         height: 400px;
         float: none;
@@ -265,7 +279,7 @@
         margin-bottom: 25px;
     }
 
-    h3{
+    h3 {
         width: 66%;
         margin: auto;
         text-align: center;
@@ -274,10 +288,32 @@
         margin-top: 25px;
     }
 
+    .back {
+        background-image: url("../tarot/senkai-yami-cover.jpg");
+        height: 490px;
+        margin: auto;
+        margin-bottom: 25px;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        transition: 1s;
+    }
+
+    .front{
+        transform: rotateY(180deg);
+        transition: 1s;
+    }
+
+    .desc{
+        opacity: 0;
+        text-align: center;
+        transition: 0.7s;
+    }
+
 
 }
-
-@media screen and (min-width: 768px) {
+/* M */
+@media screen and (min-width: 768px) and (max-width: 991px) {
     body {
         background-color: #000000;
         color: white;
@@ -291,9 +327,8 @@
         background-blend-mode: multiply;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 270px;
-        margin: 0px 10%;
-        position: relative;
+        background-position: center;
+        height: 610px;
     }
 
     sub {
@@ -304,25 +339,23 @@
     }
 
     #utm {
-        width: 80%;
-        margin: 0px 10%;
-        position: absolute;
-        top: 42%;
+        width: 100%;
         text-decoration: underline;
-        font-size: 65px;
+        font-size: 89px;
+        padding: 300px 0;
     }
 
     h1,
     h2 {
-        width: 33%;
+        width: 60%;
         margin: auto;
         text-align: center;
-        font-size: 45px;
+        font-size: 49px;
         margin-bottom: 33px;
     }
 
     div.music {
-        width: 55%;
+        width: 75%;
         margin: auto;
     }
 
@@ -340,7 +373,7 @@
         text-align: center;
         width: 80%;
         margin: 15px auto;
-        font-size: 20px;
+        font-size: 25px;
     }
 
     div.bloco {
@@ -371,7 +404,7 @@
         padding: 20px;
         text-align: justify;
         margin: 30px 10px;
-        font-size: 18px;
+        font-size: 21px;
     }
 
     div.bloco img {
@@ -390,14 +423,14 @@
         text-align: center;
     }
 
-    #types{
+    #types {
         float: none;
         display: block;
         margin: auto;
-        width: 50%;
+        width: 70%;
     }
 
-    #types img{
+    #types img {
         display: block;
         height: 450px;
         float: none;
@@ -405,7 +438,7 @@
         margin-bottom: 25px;
     }
 
-    h3{
+    h3 {
         width: 66%;
         margin: auto;
         text-align: center;
@@ -414,10 +447,32 @@
         margin-top: 25px;
     }
 
+    .back {
+        background-image: url("../tarot/senkai-yami-cover.jpg");
+        height: 600px;
+        margin: auto;
+        margin-bottom: 25px;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        transition: 1s;
+    }
+
+    .front{
+        transform: rotateY(180deg);
+        transition: 1s;
+    }
+
+    .desc{
+        opacity: 0;
+        text-align: center;
+        transition: 0.7s;
+    }
+
 
 }
-
-@media screen and (min-width: 992px) {
+/* L */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
     body {
         background-color: #000000;
         color: white;
@@ -431,9 +486,8 @@
         background-blend-mode: multiply;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 270px;
-        margin: 0px 10%;
-        position: relative;
+        background-position: center;
+        height: 720px;
     }
 
     sub {
@@ -444,12 +498,10 @@
     }
 
     #utm {
-        width: 80%;
-        margin: 0px 10%;
-        position: absolute;
-        top: 42%;
+        width: 100%;
         text-decoration: underline;
-        font-size: 65px;
+        font-size: 120px;
+        padding: 350px 0;
     }
 
     h1,
@@ -537,9 +589,47 @@
         margin: auto;
     }
 
-}
+    #sist-infor{
+        margin: auto;
+        width: 70%;
+        font-size: 22px;
+    }
 
-@media screen and (min-width: 1200px) {
+    #id{
+        width: 70%;
+    }
+
+    .back {
+        background-image: url("../tarot/senkai-yami-cover.jpg");
+        height: 490px;
+        margin: auto;
+        margin-bottom: 25px;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        transition: 1s;
+    }
+
+    .front{
+        transform: rotateY(180deg);
+        transition: 1s;
+    }
+
+    h3{
+        text-align: center;
+        font-size: 28px;
+    }
+
+    .desc{
+        opacity: 0;
+        text-align: center;
+        transition: 0.7s;
+        font-size: 18px;
+    }
+
+}
+/* X-l */
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
     body {
         background-color: #000000;
         color: white;
@@ -625,12 +715,11 @@
 
     a {
         display: block;
-        margin-left: 40%;
+        margin-left: 60%;
     }
 
     #cover {
         height: 360px;
-        background-color: 78, 78, 78;
         border: 2px white solid;
         border-radius: 15px;
     }
@@ -678,31 +767,20 @@
         margin-top: 25px;
     }
 
-    .pop-up:hover {
-        transform: scale(1.009);
-        transition: transform 0.3s;
-        
-    }
-
-    div.pop-sup:hover{
-        background-color: rgba(185, 32, 32, 0.836);
-    }
-
-    
     #c-rules {
         width: 50%;
         float: none;
         margin: auto;
     }
 
-    #types{
+    #types {
         float: none;
         display: block;
         margin: auto;
         width: 50%;
     }
 
-    #types img{
+    #types img {
         display: block;
         height: 450px;
         float: none;
@@ -710,7 +788,7 @@
         margin-bottom: 25px;
     }
 
-    h3{
+    h3 {
         width: 66%;
         margin: auto;
         text-align: center;
@@ -719,14 +797,14 @@
         margin-top: 25px;
     }
 
-    #types{
+    #types {
         float: none;
         display: block;
         margin: auto;
         width: 50%;
     }
 
-    #types img{
+    #types img {
         display: block;
         height: 450px;
         float: none;
@@ -734,7 +812,7 @@
         margin-bottom: 25px;
     }
 
-    h3{
+    h3 {
         width: 66%;
         margin: auto;
         text-align: center;
@@ -743,9 +821,43 @@
         margin-top: 25px;
     }
 
+    #id{
+        width: 50%;
+        margin: auto;
+        display: block;
+        float: none;
+    }
+
+    .back {
+        background-image: url("../tarot/senkai-yami-cover.jpg");
+        height: 550px;
+        margin: auto;
+        margin-bottom: 25px;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        transition: 1s;
+    }
+
+    .front{
+        transform: rotateY(180deg);
+        transition: 1s;
+    }
+
+    h3{
+        text-align: center;
+        font-size: 28px;
+    }
+
+    .desc{
+        opacity: 0;
+        text-align: center;
+        transition: 0.7s;
+        font-size: 18px;
+    }
 
 }
-
+/* XX-l */
 @media screen and (min-width: 1400px) {
     body {
         background-color: #000000;
@@ -803,7 +915,7 @@
         margin-bottom: 19px;
         margin-bottom: 28px;
     }
-    
+
     li {
         margin-bottom: 18px;
     }
@@ -831,8 +943,8 @@
     }
 
     a {
-        display: block;
-        margin-left: 40%;
+        position: absolute;
+        right: 200px;
     }
 
     #cover {
@@ -864,14 +976,17 @@
 
     #sistema {
         position: relative;
+        height: 500px;
+        width: 70%;
+        margin: auto;
     }
 
     #sist-infor {
-        width: 45%;
-        float: left;
+        text-align: justify;
+        text-align-last: center;
         position: absolute;
-        left: 100px;
-        top: 50px;
+        width: 600px;
+        font-size: 25px;
     }
 
     hr {
@@ -889,11 +1004,12 @@
 
     .pop-up:hover {
         transform: scale(1.009);
-        transition: transform 0.3s;
+        transition: 1s;
     }
 
-    div.pop-up:hover{
+    div.pop-up:hover {
         background-color: rgba(185, 32, 32, 0.836);
+        transition: background ease-in-out 0.5s;
     }
 
     #c-rules {
@@ -901,128 +1017,116 @@
         float: none;
         margin: auto;
     }
-    
+
     #id {
         width: 50%;
         float: none;
         margin: auto;
     }
+
+    .back {
+        background-image: url("../tarot/senkai-yami-cover.jpg");
+        height: 550px;
+        margin: auto;
+        margin-bottom: 25px;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        transition: 1s;
+    }
+
+    .front{
+        transform: rotateY(180deg);
+        transition: 1s;
+    }
+
+    h3{
+        text-align: center;
+        font-size: 28px;
+    }
+
+    .desc{
+        opacity: 0;
+        text-align: center;
+        transition: 0.7s;
+        font-size: 18px;
+    }
+    #types{
+        float: none;
+        width: 50%;
+        margin: auto;
+    }
+}
+/* Geral */
+#louco.front {  
+    background-image: url("../tarot/senkai-yami-0.jpg");       
+}
+#mago.front {  
+    background-image: url("../tarot/senkai-yami-1.jpg");       
+}
+#sacerdotisa.front {  
+    background-image: url("../tarot/senkai-yami-2.jpg");       
+}
+#imperatriz.front {  
+    background-image: url("../tarot/senkai-yami-3.jpg");       
+}
+#imperador.front {  
+    background-image: url("../tarot/senkai-yami-4.jpg");       
+}
+#hierofante.front {  
+    background-image: url("../tarot/senkai-yami-5.jpg");       
+}
+#amantes.front {  
+    background-image: url("../tarot/senkai-yami-6.jpg");       
+}
+#carroagem.front {  
+    background-image: url("../tarot/senkai-yami-7.jpg");       
+}
+#força.front {  
+    background-image: url("../tarot/senkai-yami-8.jpg");       
+}
+#eremita.front {  
+    background-image: url("../tarot/senkai-yami-9.jpg");       
+}
+#roda.front {  
+    background-image: url("../tarot/senkai-yami-10.jpg");       
+}
+#justica.front {  
+    background-image: url("../tarot/senkai-yami-11.jpg");       
+}
+#enforcado.front {  
+    background-image: url("../tarot/senkai-yami-12.jpg");       
+}
+#morte.front {  
+    background-image: url("../tarot/senkai-yami-13.jpg");       
+}
+#temperanca.front {  
+    background-image: url("../tarot/senkai-yami-14.jpg");       
+}
+#diabo.front {  
+    background-image: url("../tarot/senkai-yami-15.jpg");       
+}
+#torre.front {  
+    background-image: url("../tarot/senkai-yami-16.jpg");       
+}
+#estrela.front {  
+    background-image: url("../tarot/senkai-yami-17.jpg");       
+}
+#lua.front {  
+    background-image: url("../tarot/senkai-yami-18.jpg");       
+}
+#sol.front {  
+    background-image: url("../tarot/senkai-yami-19.jpg");       
+}
+#julgamento.front {  
+    background-image: url("../tarot/senkai-yami-20.jpg");       
+}
+#mundo.front {  
+    background-image: url("../tarot/senkai-yami-21.jpg");       
 }
 
-/* body{
-    background-color: rgb(0, 0, 0);
-    color: white;
 
+.visible{
+    opacity: 1;
+    transition: 1.5s;
 }
-
-.nav-audio{
-    float: right;
-    background-color: rgba(0, 136, 255, 0);
-    border: none;
-}
-
-#titulo{
-    background-image: url("https://i.pinimg.com/originals/4a/13/e1/4a13e1d80f844602befbf80076ddc097.jpg");
-    background-color: rgb(173, 41, 41);
-    background-blend-mode: multiply;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 650px;
-    width: 80%;
-    margin: 0px 10%;
-    font-size: 110px;
-    position: relative;
-}
-
-sub{
-    font-size: 14px;
-    position: absolute;
-    left: 25.5%;
-}
-
-#utm{
-    width: 80%;
-    margin: 0px 10%;
-    position: absolute;
-    top: 240px;
-    text-decoration: underline;
-}
-
-.nav-btn:hover{
-    background-color: red;
-}
-
-h1, h2, div.music{
-    width: 33%;
-    margin-left: 33%;
-    margin-right: 33%;
-    text-align: center;
-    font-size: 45px;
-}
-
-ul{
-    list-style: decimal-leading-zero;
-    font-size: 18px;
-    margin-bottom: 20px;
-}
-
-li{
-    margin-bottom: 18px;
-}
-
-.introducao{
-    text-align: center;
-    width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
-    font-size: 23px;
-}
-
-div.bloco{
-    background-color: rgb(78, 78, 78);
-    width: 70%;
-    clear: both;
-    margin: 15px 0px;
-    overflow: auto;
-    border-radius: 10px;
-    border: 1px white solid;
-}
-
-#cover{
-    height: 390px;
-    margin-right: 300px;
-    background-color: 78, 78, 78;
-    border: 2px white solid;
-    border-radius: 15px;
-}
-
-
-
-div p{
-    padding: 20px;
-    text-align: justify;
-    margin: 30px 10px;
-    font-size: 20px;
-}
-
-div.bloco img {
-    height: 240px; 
-    width: 300px;  
-    float: right; 
-    margin: 15px;
-    background-color: rgb(82, 64, 64);
-    border-radius: 15px;
-    border: 1px black solid;
-}
-
-.pop-up:hover{
-    transform:scale(1.009);
-    transition: transform 0.3s;
-}
-
-footer{
-    background-color: rgb(20, 20, 20);
-    height: 45px;
-    color: rgba(245, 245, 220, 0.171);
-    text-align: center;
-} */

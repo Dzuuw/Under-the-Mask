@@ -27,7 +27,7 @@
     </div>
     <hr>
     <h1>Conheça nossa cidade</h1>
-    <div class="pop-up anim-esq bloco">
+    <div class="anim-esq bloco">
         <h2 style="font-size: 30px;">Fundação de Corumbiara</h2>
         <img alt="Corumbiara"
             src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXntKzdZ2QriIcIQWn9kNRQkqiHzDaisBiFVUUPQDrW1Ik8ufhqApPd2m5NTtBHxrxmG5wV7z2-_YA87wNYPJYq-iUZf9AQN_WWnJD6Z1qlZUZ8PmMexC6zdAm82_IQ_eGhtLD3bfBLBjG/s1600/REGIAO+SERRANA+DO+RIO.bmp">
@@ -43,7 +43,7 @@
             município de Corumbiara. A economia se mantém principalmente graças ao comércio local, o turismo e mais
             recentemente à chegada da Faraday Inc. à região.</p>
     </div>
-    <div class="pop-up bloco" id="dir">
+    <div class="bloco" id="dir">
         <h2 style="font-size: 30px;">A Academia de Ciências e Artes Tropicais</h2>
         <img alt="ACAT" src="https://live.staticflickr.com/7527/15653669273_6a9877a6aa_b.jpg">
         <p> &nbsp;&nbsp;Uma instituição acadêmica fundada em 1834, com o único e exclusivo propósito de instruir os
@@ -57,7 +57,7 @@
             desde crianças a partir da idade de 6 anos, até jovens buscando ensino superior, contando processos
             seletivos para bolsas parciais e integrais todos os anos que abrangem todas as faixas etárias.</p>
     </div>
-    <div class="pop-up bloco">
+    <div class="bloco">
         <h2 style="font-size: 30px;">Faraday Incorporation</h2>
         <img alt="Faraday Inc." src="./static/file/Sem título.jpg">
         <p> &nbsp;&nbsp;É com grande entusiasmo e orgulho que anunciamos a abertura da nova filial da Faraday
@@ -78,24 +78,24 @@
     <h2>Sistema</h2>
 
     <div id="sistema">
-        <p class="introducao" id="sist-infor">
+        <p id="sist-infor">
             &nbsp;&nbsp;Under the Mask é um RPG de mistério e ação, com alguns toques de tensão e terror. O sistema
             utilizado na
             campanha será Call of Cthulhu, um sistema de RPG inspirado nas obras de H.P.
             Lovrecraft. Os jogadores assumem o papel de investigadores (aqui representados pelos estudantes) que se
             deparam com acontecimentos sobrenaturais e
-            mistérios sombrios.<br>
+            mistérios sombrios.
             Clicando na capa você pode baixar uma ficha de personagem automatizada e o Livro do Investigador para
             auxiliar na criação do personagem e compreensão das regras do jogo.
         </p>
-        <a href="./static/file/Coc.zip" download="Livro e Ficha CoC" class="pop-up">
+        <a href="./static/file/Coc.zip" download="Livro e Ficha CoC">
             <img id="cover" alt="Call of Cthulhu"
                 src="https://cdn11.bigcommerce.com/s-9zhx02uo/images/stencil/1280x1280/products/1883/2120/cha23136_catalog__57296.1520656047.png?c=2F">
         </a>
     </div>
     <hr style="margin-top: 80px;">
     <h2>Criação de Personagem</h2>
-    <div class="bloco pop-up" id="c-rules">
+    <div class="bloco" id="c-rules">
         <p>Os jogadores devem seguir algumas regras na criação de personagem, são elas:</p>
         <ul>
             <li>Os personagens devem estar relacionados com a ACAT, sejam alunos ou funcionários, com excessão do cargo
@@ -109,7 +109,7 @@
             <li>Persoagens de qualquer identidade de gênero/sexualidade são permitidos;</li>
             <li>O <i>Id</i> de um personagem é baseado em sua personalidade e acontecimentos no decorrer de sua vida;
             </li>
-            <li>Nenhum personagem pode inciar a campanha com seu <i>Id</i> já desperto;</li>
+            <li>Nenhum personagem pode inciar a campanha já desperto;</li>
         </ul>
     </div>
     <sub>Obs: Dado o tempo e o ambiente em que se a passa campanha alguns personagens podem sofrer discriminação, o que
@@ -119,7 +119,7 @@
     <div style="height: 45px;"></div>
     <hr style="clear: both;">
     <h2>Id: Uma força latente</h2>
-    <div class="bloco types pop-up" id="id">
+    <div class="bloco types" id="id">
         <p>
             &nbsp;&nbsp;De acordo com a psicanálise, o id é uma das três partes principais da personalidade humana,
             conforme
@@ -140,147 +140,165 @@
     </div>
     <hr style="margin-top: 35px;">
     <h2>Classificação dos Id's</h2>
-    <div class="bloco pop-up" id="types">
+    <div class="bloco" id="types">
         <p>Apesar de cada Id ser único, é possível notar semelhanças em certos grupos de despertos. Então ,buscando uma
             melhor organização, foram criadas 21 categorias para os diferentes tipos de Id's. Posteriormente essa
             divisão daria origem ao Tarô. As categorias são:</p>
         <div>
             <h3>O Louco</h3>
-            <p style="text-align: center;">A distorção do espaço e da matéria</p>
-            <img
-                src="https://cdnb.artstation.com/p/assets/images/images/042/775/413/large/senkai-yami-0.jpg?1635404787">
+            <div class="back" id="louco" data-index="0"></div>
+            <p class="desc" data-index="0">A manipulação da matéria e do espaço</p>
         </div>
         <hr>
         <div>
             <h3>O Mago</h3>
-            <p style="text-align: center;">Os elementos do mundo sob seu comando</p>
-            <img src="https://cdnb.artstation.com/p/assets/images/images/042/809/765/large/senkai-yami-1.jpg?1635492646">
+            <div class="back" id="mago" data-index="1"></div>
+            <p class="desc" data-index="1">Os elementos do mundo sob seu comando</p>
         </div>
         <hr>
         <div>
             <h3>A Sacerdotisa</h3>
-            <p style="text-align: center;">A percepção daquilo que está oculto</p>
-            <img src="https://cdnb.artstation.com/p/assets/images/images/042/839/947/large/senkai-yami-2.jpg?1635581144">
+            <div class="back" id="sacerdotisa" data-index="2"></div>
+            <p class="desc" data-index="2">A percepção daquilo que está oculto</p>
         </div>
         <hr>
         <div>
             <h3>A Imperatriz</h3>
-            <p style="text-align: center;">A proteção inquebrável da mãe de todos</p>
-            <img src="https://cdnb.artstation.com/p/assets/images/images/042/868/393/large/senkai-yami-3.jpg?1635682970">
+            <div class="back" id="imperatriz" data-index="3"></div>
+            <p class="desc" data-index="3">A proteção inquebrável da mãe de todos</p>
         </div>
         <hr>
         <div>
             <h3>O Imperador</h3>
-            <p style="text-align: center;">Todo ser vivo se curva perante a majestade</p>
-            <img src="https://cdna.artstation.com/p/assets/images/images/042/892/622/large/senkai-yami-4.jpg?1635750348">
+            <div class="back" id="imperador" data-index="4"></div>
+            <p class="desc" data-index="4">Todo ser vivo se curva perante a majestade</p>
         </div>
         <hr>
         <div>
             <h3>O Hierofante</h3>
-            <p style="text-align: center;">Bênçãos recaiam sobre aqueles em seus cuidados</p>
-            <img src="https://cdnb.artstation.com/p/assets/images/images/042/928/007/large/senkai-yami-5.jpg?1635839382">
+            <div class="back" id="hierofante" data-index="5"></div>
+            <p class="desc" data-index="5">Bênçãos recaem sobre aqueles em seus cuidados</p>
         </div>
         <hr>
         <div>
             <h3>Os Amantes</h3>
-            <p style="text-align: center;">Um carisma capaz de mover milhões</p>
-            <img src="https://cdna.artstation.com/p/assets/images/images/043/086/166/large/senkai-yami-6.jpg?1636281031">
+            <div class="back" id="amantes" data-index="6"></div>
+            <p class="desc" data-index="6">Um carisma capaz de mover milhões</p>
         </div>
         <hr>
         <div>
             <h3>A Carroagem</h3>
-            <p style="text-align: center;">Uma agilidade inigualável</p>
-            <img src="https://cdnb.artstation.com/p/assets/images/images/043/109/699/large/senkai-yami-7.jpg?1636356944">
+            <div class="back" id="carroagem" data-index="7"></div>
+            <p class="desc" data-index="7">Inalcançável para todos</p>
         </div>
         <hr>
         <div>
             <h3>A Força</h3>
-            <p style="text-align: center;">Poder suficiente para mover montanhas</p>
-            <img src="https://cdnb.artstation.com/p/assets/images/images/043/144/267/large/senkai-yami-8.jpg?1636443054">
+            <div class="back" id="força" data-index="8"></div>
+            <p class="desc" data-index="8">Poder suficiente para mover montanhas</p>
         </div>
         <hr>
         <div>
             <h3>O Eremita</h3>
-            <p style="text-align: center;">A caneta se sobrepõe à espada</p>
-            <img src="https://cdnb.artstation.com/p/assets/images/images/043/209/685/large/senkai-yami-9.jpg?1636614429">
+            <div class="back" id="eremita" data-index="9"></div>
+            <p class="desc" data-index="9">A caneta se sobrepõe à espada</p>
         </div>
         <hr>
         <div>
             <h3>A Roda da Fortuna</h3>
-            <p style="text-align: center;">A sorte lhe sorri com frequência</p>
-            <img src="https://cdna.artstation.com/p/assets/images/images/043/242/840/large/senkai-yami-10.jpg?1636703971">
+            <div class="back" id="roda" data-index="10"></div>
+            <p class="desc" data-index="10">A sorte lhe sorri com frequência</p>
         </div>
         <hr>
         <div>
             <h3>A Justiça</h3>
-            <p style="text-align: center;">A justiça prevalece quando não há segredos</p>
-            <img src="https://cdna.artstation.com/p/assets/images/images/043/294/532/large/senkai-yami-11.jpg?1636876829">
+            <div class="back" id="justica" data-index="11"></div>
+            <p class="desc" data-index="11">A justiça prevalece quando não há segredos</p>
         </div>
         <hr>
         <div>
             <h3>O Enforcado</h3>
-            <p style="text-align: center;">Toda ação tem consequências</p>
-            <img src="https://cdna.artstation.com/p/assets/images/images/043/323/578/large/senkai-yami-12.jpg?1636961565">
+            <div class="back" id="enforcado" data-index="12"></div>
+            <p class="desc" data-index="12">Todo acordo deve ser cumprido</p>
         </div>
         <hr>
         <div>
             <h3>A Morte</h3>
-            <p style="text-align: center;">Aqueles que já se foram são os que gritam mais alto</p>
-            <img src="https://cdna.artstation.com/p/assets/images/images/043/356/412/large/senkai-yami-13.jpg?1637050852">
+            <div class="back" id="morte" data-index="13"></div>
+            <p class="desc" data-index="13">Aqueles que já se foram são os que gritam mais alto</p>
         </div>
         <hr>
         <div>
             <h3>A Temperança</h3>
-            <p style="text-align: center;">Uma decisão afeta a vida de todos ao redor</p>
-            <img src=https://cdna.artstation.com/p/assets/images/images/043/390/266/large/senkai-yami-14.jpg?1637134890"">
+            <div class="back" id="temperanca" data-index="14"></div>
+            <p class="desc" data-index="14">O futuro é como um rio e seus afluentes</p>
         </div>
         <hr>
         <div>
             <h3>O Diabo</h3>
-            <p style="text-align: center;">O senhor das criaturas profanas</p>
-            <img src="https://cdnb.artstation.com/p/assets/images/images/043/421/729/large/senkai-yami-15.jpg?1637221286">
+            <div class="back" id="diabo" data-index="15"></div>
+            <p class="desc" data-index="15">O senhor das criaturas profanas</p>
         </div>
         <hr>
         <div>
             <h3>A Torre</h3>
-            <p style="text-align: center;">Amaldiçoados aqueles que cruzam seu caminho</p>
-            <img src="https://cdna.artstation.com/p/assets/images/images/043/454/350/large/senkai-yami-16.jpg?1637304754">
+            <div class="back" id="torre" data-index="16"></div>
+            <p class="desc" data-index="16">Amaldiçoados aqueles que cruzam seu caminho</p>
         </div>
         <hr>
         <div>
             <h3>As Estrelas</h3>
-            <p style="text-align: center;">Sua beleza fascina e revitaliza os cansados da batalha</p>
-            <img src="https://cdnb.artstation.com/p/assets/images/images/043/482/157/large/senkai-yami-17.jpg?1637393165">
+            <div class="back" id="estrela" data-index="17"></div>
+            <p class="desc" data-index="17">Sua beleza fascina e revitaliza os cansados da batalha</p>
         </div>
         <hr>
         <div>
             <h3>A Lua</h3>
-            <p style="text-align: center;">A luz mais forte em meio a escuridão</p>
-            <img src="https://cdna.artstation.com/p/assets/images/images/043/511/492/large/senkai-yami-18.jpg?1637497112">
+            <div class="back" id="lua" data-index="18"></div>
+            <p class="desc" data-index="18">A luz mais forte em meio a escuridão</p>
         </div>
         <hr>
         <div>
             <h3>O Sol</h3>
-            <p style="text-align: center;">Uma luz tão forte é capaz de trazer as sombras à terra</p>
-            <img src="https://cdna.artstation.com/p/assets/images/images/043/534/444/large/senkai-yami-19.jpg?1637566762">
+            <div class="back" id="sol" data-index="19"></div>
+            <p class="desc" data-index="19">Uma luz tão forte é capaz de trazer as sombras à terra</p>
         </div>
         <hr>
         <div>
             <h3>O Julgamento</h3>
-            <p style="text-align: center;">Os mortos não podem descansar antes de serem submetidos a ti</p>
-            <img src="https://cdnb.artstation.com/p/assets/images/images/043/567/763/large/senkai-yami-20.jpg?1637652326">
+            <div class="back" id="julgamento" data-index="20"></div>
+            <p class="desc" data-index="20">Os mortos não descansarão antes de se submeterem a ti</p>
         </div>
         <hr>
         <div>
             <h3>O Mundo</h3>
-            <p style="text-align: center;">Tamanho poder é capaz de reger até o tempo</p>
-            <img src="https://cdnb.artstation.com/p/assets/images/images/043/602/717/large/senkai-yami-21.jpg?1637741316">
+            <div class="back" id="mundo" data-index="21"></div>
+            <p class="desc" data-index="21">Tamanho poder é capaz de reger até o tempo</p>
         </div>
     </div>
+    <hr>
     <footer>
         <br>
         Tem direito reservado nenhum nessa merda © 2024
     </footer>
+    <script>
+        // Seleciona todas as divs com a classe 'box' e 'desc'
+        const boxes = document.querySelectorAll('.back');
+        const descs = document.querySelectorAll('.desc');
+
+        // Adiciona um ouvinte de eventos a cada div 'box'
+        boxes.forEach(function (box) {
+            box.addEventListener('click', function () {
+                const index = this.getAttribute('data-index');
+                this.classList.toggle('front');
+                descs.forEach(function (desc) {
+                    if (desc.getAttribute('data-index') === index) {
+                        desc.classList.toggle('visible');
+                    }
+                });
+            });
+        });
+    </script>
 </body>
 
 </html>

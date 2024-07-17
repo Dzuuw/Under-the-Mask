@@ -1,0 +1,31 @@
+.box {
+    background-image: url("https://i.pinimg.com/736x/c9/e5/61/c9e561d61fc50771ece1255125f7fb1a.jpg");
+    transition: transform 0.3s ease;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2500px;
+    width:1600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    
+}
+
+.transformed {
+    transform: rotateY(180deg);
+    background-image: url("https://cdnb.artstation.com/p/assets/images/images/042/809/765/large/senkai-yami-1.jpg?1635492646");
+    transition: 1s, background 0.3 linear;
+
+}
+
+.desc{
+    opacity: 0;
+    text-align: center;
+    margin: auto;
+}
+.visible{
+    opacity: 1;
+    transition: 1s;
+}
