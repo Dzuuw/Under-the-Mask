@@ -1042,14 +1042,14 @@
 
     h3{
         text-align: center;
-        font-size: 28px;
+        font-size: 34px;
     }
 
     .desc{
         opacity: 0;
         text-align: center;
         transition: 0.7s;
-        font-size: 18px;
+        font-size: 23px;
     }
     #types{
         float: none;
