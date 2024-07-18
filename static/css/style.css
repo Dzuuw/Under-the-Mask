@@ -1,5 +1,5 @@
-/* X-s */
-@media screen and (max-width: 576px) {
+/* Celulares */
+@media screen and (max-width: 767px) {
     body {
         background-color: #000000;
         color: white;
@@ -12,10 +12,11 @@
         background-color: rgb(173, 41, 41);
         background-blend-mode: multiply;
         background-repeat: no-repeat;
-        background-size: 850px 420px;
         background-position: center;
-        height: 410px;
+        background-size: 900px;
+        height: 400px;
         margin: 0px;
+        padding: 0px;
     }
 
     sub {
@@ -27,8 +28,7 @@
 
     #utm {
         width: auto;
-        margin: auto;
-        padding: 200px 0px;
+        padding: 160px 0px;
         text-decoration: underline;
         font-size: 67px;
     }
@@ -58,16 +58,16 @@
     }
 
     .introducao {
-        text-align: justify;
+        text-align: center;
         text-align-last: center;
-        width: 80%;
+        width: 87%;
         margin: 15px auto;
         font-size: 20px;
     }
 
     div.bloco {
         background-color: rgba(129, 41, 41, 0.555);
-        width: 70%;
+        width: 94%;
         clear: both;
         margin: 15px auto;
         border-radius: 10px;
@@ -79,20 +79,19 @@
     }
 
     #cover {
-        height: 600px;
+        height: 460px;
         margin: auto;
         display: block;
-        background-color: 78, 78, 78;
-        border: 2px white solid;
+        border: 1px white solid;
         border-radius: 15px;
     }
 
 
 
     div p {
-        padding: 20px;
-        text-align: justify;
-        margin: 30px 10px;
+        width: 81%;
+        text-align: left;
+        margin: 30px auto;
         font-size: 22px;
     }
 
@@ -112,12 +111,7 @@
         text-align: center;
     }
 
-    #types {
-        float: none;
-        display: block;
-        margin: auto;
-        width: 80%;
-    }
+    
 
     h3 {
         width: 66%;
@@ -130,9 +124,9 @@
 
     .back {
         background-image: url("../tarot/senkai-yami-cover.jpg");
-        height: 490px;
+        height: 600px;
         margin: auto;
-        margin-bottom: 25px;
+        margin-bottom: 20px;
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
