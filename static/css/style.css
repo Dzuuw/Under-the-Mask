@@ -1,3 +1,7 @@
+:root{
+    --red: rgb(173, 58, 58);
+}
+
 /* Celulares */
 @media screen and (max-width: 600px) {
     body {
@@ -9,7 +13,7 @@
 
     #titulo {
         background-image: url("https://i.pinimg.com/originals/4a/13/e1/4a13e1d80f844602befbf80076ddc097.jpg");
-        background-color: rgb(120, 41, 173);
+        background-color: var(--red);
         background-blend-mode: multiply;
         background-repeat: no-repeat;
         background-position: center;
@@ -158,7 +162,7 @@
 
     #titulo {
         background-image: url("https://i.pinimg.com/originals/4a/13/e1/4a13e1d80f844602befbf80076ddc097.jpg");
-        background-color: rgb(41, 147, 173);
+        background-color: var(--red);
         background-blend-mode: multiply;
         background-position: center;
         background-size: 900px 500px;
@@ -317,7 +321,7 @@
 
     #titulo {
         background-image: url("https://i.pinimg.com/originals/4a/13/e1/4a13e1d80f844602befbf80076ddc097.jpg");
-        background-color: rgb(173, 153, 41);
+        background-color: var(--red);
         background-blend-mode: multiply;
         background-repeat: no-repeat;
         background-size: cover;
@@ -476,7 +480,7 @@
 
     #titulo {
         background-image: url("https://i.pinimg.com/originals/4a/13/e1/4a13e1d80f844602befbf80076ddc097.jpg");
-        background-color: rgb(41, 173, 59);
+        background-color: var(--red);
         background-blend-mode: multiply;
         background-repeat: no-repeat;
         background-size: cover;
@@ -650,7 +654,7 @@
 
     #titulo {
         background-image: url("https://i.pinimg.com/originals/4a/13/e1/4a13e1d80f844602befbf80076ddc097.jpg");
-        background-color: rgb(173, 41, 41);
+        background-color: var(--red);
         background-blend-mode: multiply;
         background-repeat: no-repeat;
         background-size: cover;
