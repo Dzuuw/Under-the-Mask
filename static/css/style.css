@@ -1,5 +1,5 @@
 /* Celulares */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 600px) {
     body {
         background-color: #000000;
         color: white;
@@ -9,7 +9,7 @@
 
     #titulo {
         background-image: url("https://i.pinimg.com/originals/4a/13/e1/4a13e1d80f844602befbf80076ddc097.jpg");
-        background-color: rgb(173, 41, 41);
+        background-color: rgb(120, 41, 173);
         background-blend-mode: multiply;
         background-repeat: no-repeat;
         background-position: center;
@@ -149,8 +149,8 @@
 
 }
 
-/* S */
-@media screen and (min-width: 577px) and (max-width: 767px) {
+/* Tablete (Retrato) */
+@media screen and (min-width: 601px) and (max-width: 900px) {
     body {
         background-color: #000000;
         color: white;
@@ -158,7 +158,7 @@
 
     #titulo {
         background-image: url("https://i.pinimg.com/originals/4a/13/e1/4a13e1d80f844602befbf80076ddc097.jpg");
-        background-color: rgb(173, 41, 41);
+        background-color: rgb(41, 147, 173);
         background-blend-mode: multiply;
         background-position: center;
         background-size: 900px 500px;
@@ -306,8 +306,8 @@
 
 
 }
-/* M */
-@media screen and (min-width: 768px) and (max-width: 991px) {
+/* Tablets (Landscape) */
+@media screen and (min-width: 901px) and (max-width: 1200px) {
     body {
         background-color: #000000;
         color: white;
@@ -317,7 +317,7 @@
 
     #titulo {
         background-image: url("https://i.pinimg.com/originals/4a/13/e1/4a13e1d80f844602befbf80076ddc097.jpg");
-        background-color: rgb(173, 41, 41);
+        background-color: rgb(173, 153, 41);
         background-blend-mode: multiply;
         background-repeat: no-repeat;
         background-size: cover;
@@ -465,8 +465,8 @@
 
 
 }
-/* L */
-@media screen and (min-width: 992px) and (max-width: 1199px) {
+/* Desktops (Pequenos) */
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
     body {
         background-color: #000000;
         color: white;
@@ -476,12 +476,12 @@
 
     #titulo {
         background-image: url("https://i.pinimg.com/originals/4a/13/e1/4a13e1d80f844602befbf80076ddc097.jpg");
-        background-color: rgb(173, 41, 41);
+        background-color: rgb(41, 173, 59);
         background-blend-mode: multiply;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        height: 720px;
+        height: 620px;
     }
 
     sub {
@@ -495,16 +495,17 @@
         width: 100%;
         text-decoration: underline;
         font-size: 120px;
-        padding: 350px 0;
+        padding: 280px 0;
     }
 
     h1,
     h2 {
-        width: 33%;
+        width: 60%;
         margin: auto;
         text-align: center;
         font-size: 45px;
         margin-bottom: 33px;
+        margin-top: 15px;
     }
 
     div.music {
@@ -533,9 +534,17 @@
         background-color: rgba(129, 41, 41, 0.555);
         width: 70%;
         clear: both;
-        margin: 15px auto;
         border-radius: 10px;
         border: 1px white solid;
+        margin: 15px 0;
+    }
+
+    #dir{
+        float: right;
+    }
+    #dir img{
+        float: left;
+        margin: 15px;
     }
 
     a {
@@ -543,7 +552,7 @@
     }
 
     #cover {
-        height: 520px;
+        height: 450px;
         margin: auto;
         display: block;
         background-color: 78, 78, 78;
@@ -566,7 +575,8 @@
         border-radius: 15px;
         border: 1px black solid;
         display: block;
-        margin: auto;
+        margin: 15px;
+        float: right;
     }
 
     footer {
@@ -621,237 +631,15 @@
         font-size: 18px;
     }
 
-}
-/* X-l */
-@media screen and (min-width: 1200px) and (max-width: 1399px) {
-    body {
-        background-color: #000000;
-        color: white;
-        margin: 0;
-
-    }
-
-    #titulo {
-        background-image: url("https://i.pinimg.com/originals/4a/13/e1/4a13e1d80f844602befbf80076ddc097.jpg");
-        background-color: rgb(173, 41, 41);
-        background-blend-mode: multiply;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 400px;
-        margin: 0px 10%;
-        position: relative;
-    }
-
-    sub {
-        font-size: 16px;
-        width: 45%;
-        margin: auto;
-        display: block;
-        margin-top: 31px;
-    }
-
-    #utm {
-        width: 80%;
-        margin: 0px 10%;
-        position: absolute;
-        top: 42%;
-        text-decoration: underline;
-        font-size: 90px;
-    }
-
-    h1,
-    h2 {
-        width: 66%;
-        margin: auto;
-        text-align: center;
-        font-size: 45px;
-        margin-bottom: 33px;
-        margin-top: 25px;
-    }
-
-    div.music {
-        width: 55%;
+    #c-rules{
         margin: auto;
     }
-
-    ul {
-        list-style: decimal-leading-zero;
-        font-size: 18px;
-        margin-bottom: 20px;
-
-    }
-
-    li {
-        margin-bottom: 18px;
-    }
-
-    .introducao {
-        text-align: center;
-        width: 80%;
-        margin: 15px auto;
-        font-size: 20px;
-    }
-
-    div.bloco {
-        clear: both;
-        float: left;
-        background-color: rgba(129, 41, 41, 0.555);
-        width: 70%;
-        clear: both;
-        margin: 15px;
-        border-radius: 10px;
-        border: 1px white solid;
-    }
-
-    #dir {
-        float: right;
-    }
-
-    a {
-        display: block;
-        margin-left: 60%;
-    }
-
-    #cover {
-        height: 360px;
-        border: 2px white solid;
-        border-radius: 15px;
-    }
-
-
-    div p {
-        padding: 20px;
-        text-align: justify;
-        margin: 30px 10px;
-        font-size: 18px;
-    }
-
-    div.bloco img {
-        height: 260px;
-        width: 300px;
-        border-radius: 15px;
-        border: 1px black solid;
-        display: block;
-        margin: 25px;
-        float: left;
-
-    }
-
-    #sistema {
-        position: relative;
-    }
-
-    #sist-infor {
-        width: 45%;
-        float: left;
-        position: absolute;
-        left: 100px;
-        top: 50px;
-    }
-
-    hr {
-        clear: both;
-    }
-
-    footer {
-        background-color: rgb(20, 20, 20);
-        height: 45px;
-        color: rgba(245, 245, 220, 0.171);
-        text-align: center;
-        margin-top: 25px;
-    }
-
-    #c-rules {
-        width: 50%;
-        float: none;
+    #types{
         margin: auto;
-    }
-
-    #types {
-        float: none;
-        display: block;
-        margin: auto;
-        width: 50%;
-    }
-
-    #types img {
-        display: block;
-        height: 450px;
-        float: none;
-        margin: auto;
-        margin-bottom: 25px;
-    }
-
-    h3 {
-        width: 66%;
-        margin: auto;
-        text-align: center;
-        font-size: 35px;
-        margin-bottom: 10px;
-        margin-top: 25px;
-    }
-
-    #types {
-        float: none;
-        display: block;
-        margin: auto;
-        width: 50%;
-    }
-
-    #types img {
-        display: block;
-        height: 450px;
-        float: none;
-        margin: auto;
-        margin-bottom: 25px;
-    }
-
-    h3 {
-        width: 66%;
-        margin: auto;
-        text-align: center;
-        font-size: 35px;
-        margin-bottom: 10px;
-        margin-top: 25px;
-    }
-
-    #id{
-        width: 50%;
-        margin: auto;
-        display: block;
-        float: none;
-    }
-
-    .back {
-        background-image: url("../tarot/senkai-yami-cover.jpg");
-        height: 550px;
-        margin: auto;
-        margin-bottom: 25px;
-        background-position: center;
-        background-size: contain;
-        background-repeat: no-repeat;
-        transition: 1s;
-    }
-
-    .front{
-        transform: rotateY(180deg);
-        transition: 1s;
-    }
-
-    h3{
-        text-align: center;
-        font-size: 28px;
-    }
-
-    .desc{
-        opacity: 0;
-        text-align: center;
-        transition: 0.7s;
-        font-size: 18px;
     }
 
 }
-/* XX-l */
+/* Desktops (Grandes) */
 @media screen and (min-width: 1400px) {
     body {
         background-color: #000000;
