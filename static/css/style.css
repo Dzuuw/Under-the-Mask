@@ -10,6 +10,36 @@
         margin: 0;
 
     }
+    .nav{
+        background-color: var(--red);
+        text-align: center;
+    }
+    .nav-link{
+        border: black 1px solid;
+        text-decoration: none;
+        color: white;
+        height: 35px;
+        padding: 5px;
+    }
+
+    .nav-btn{
+        width: 100%;
+        background-color: transparent;
+        border: black 1px solid;
+    }
+    .muted{
+        height: 100%;
+        background-image: url("../icons/volume-mute-fill.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .hide{
+        display: none;
+    }
+    .show{
+        display: block;
+    }
 
     #titulo {
         background-image: url("https://i.pinimg.com/originals/4a/13/e1/4a13e1d80f844602befbf80076ddc097.jpg");
@@ -44,11 +74,6 @@
         text-align: center;
         font-size: 45px;
         margin-bottom: 35px;
-    }
-
-    div.music {
-        width: 75%;
-        margin: auto;
     }
 
     ul {
@@ -110,9 +135,10 @@
 
     footer {
         background-color: rgb(20, 20, 20);
-        height: 45px;
         color: rgba(245, 245, 220, 0.171);
-        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
     }
 
     
@@ -152,7 +178,6 @@
     
 
 }
-
 /* Tablete (Retrato) */
 @media screen and (min-width: 601px) and (max-width: 900px) {
     body {
@@ -165,7 +190,7 @@
         background-color: var(--red);
         background-blend-mode: multiply;
         background-position: center;
-        background-size: 900px 500px;
+        background-size: 1200px 600px;
         height: 460px;
     }
 
@@ -191,11 +216,6 @@
         text-align: center;
         font-size: 38px;
         margin-bottom: 35px;
-    }
-
-    div.music {
-        width: 65%;
-        margin: auto;
     }
 
     ul {
@@ -257,9 +277,10 @@
 
     footer {
         background-color: rgb(20, 20, 20);
-        height: 45px;
         color: rgba(245, 245, 220, 0.171);
-        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
     }
 
     #types {
@@ -308,6 +329,40 @@
         transition: 0.7s;
     }
 
+    .nav{
+        background-color: var(--red);
+        text-align: center;
+    }
+    .nav-link{
+        border: black 1px solid;
+        text-decoration: none;
+        color: white;
+        height: 35px;
+        padding: 5px;
+    }
+
+    .nav-btn{
+        width: 100%;
+        background-color: transparent;
+        border: black 1px solid;
+    }
+    .muted{
+        height: 100%;
+        background-image: url("../icons/volume-mute-fill.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .n-mute{
+        background-image: url("../icons/volume-up-fill.svg");
+    }
+
+    .hide{
+        display: none;
+    }
+    .show{
+        display: block;
+    }
+
 
 }
 /* Tablets (Landscape) */
@@ -350,11 +405,6 @@
         text-align: center;
         font-size: 49px;
         margin-bottom: 33px;
-    }
-
-    div.music {
-        width: 75%;
-        margin: auto;
     }
 
     ul {
@@ -416,9 +466,10 @@
 
     footer {
         background-color: rgb(20, 20, 20);
-        height: 45px;
         color: rgba(245, 245, 220, 0.171);
-        text-align: center;
+        justify-content: center;
+        display: flex;
+        height: 90px;
     }
 
     #types {
@@ -467,6 +518,39 @@
         transition: 0.7s;
     }
 
+    .nav{
+        background-color: var(--red);
+    }
+    .nav-link{
+        border: black 1px solid;
+        text-decoration: none;
+        color: white;
+        height: 35px;
+        padding: 5px;
+    }
+
+    .nav-btn{
+        width: 100%;
+        background-color: transparent;
+        border: black 1px solid;
+    }
+    .muted{
+        height: 100%;
+        background-image: url("../icons/volume-mute-fill.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .n-mute{
+        background-image: url("../icons/volume-up-fill.svg");
+    }
+
+    .hide{
+        display: none;
+    }
+    .show{
+        display: block;
+    }
+
 
 }
 /* Desktops (Pequenos) */
@@ -510,11 +594,6 @@
         font-size: 45px;
         margin-bottom: 33px;
         margin-top: 15px;
-    }
-
-    div.music {
-        width: 55%;
-        margin: auto;
     }
 
     ul {
@@ -688,11 +767,6 @@
         font-size: 45px;
         margin-bottom: 33px;
         margin-top: 28px;
-    }
-
-    div.music {
-        width: 45%;
-        margin: auto;
     }
 
     ul {
@@ -911,8 +985,11 @@
     background-image: url("../tarot/senkai-yami-21.jpg");       
 }
 
-
 .visible{
     opacity: 1;
     transition: 1.5s;
+}
+
+.n-mute{
+    background-image: url("../icons/volume-up-fill.svg");
 }

@@ -13,20 +13,27 @@
         <h1 id="utm">Under the Mask</h1>
     </div>
     <hr>
+    <div class="nav">
+        <button id="nav-btn" onclick="mostrar()" class="nav-link nav-btn"><img src="./static/icons/list.svg"></button>
+            <a class="nav-link hide" name="nav-itens" href="#meet">Conheça nossa cidade</a>
+            <a class="nav-link hide" name="nav-itens" href="#sist-title">Sistema</a>
+            <a class="nav-link hide" name="nav-itens" href="#cc">Criação de Personagem</a>
+            <a class="nav-link hide" name="nav-itens" href="#id-t">Id</a>
+            <a class="nav-link hide" name="nav-itens" href="#types-id">Classificação</a>
+        <button class="nav-link nav-btn" onclick="mute()">
+            <div class="muted" id="volume"></div>
+        </button>
+    </div>
+    <hr>
     <p class="introducao">&nbsp;&nbsp;Em 2009 na cidade de Corumbiara, região serrana do Rio de Janeiro,
         rumores sobre desaparecimentos na região preocupam a população.
         Duas semanas depois da descoberta do primeiro caso, a polícia apreende o principal suspeito, no entando a
         população continua em alerta. Há pouco tempo a cidade sofreu um <i>boom</i> no seu desenvolvimento graças à
         recente chegada de uma filial da Faraday Inc., uma fabricante de eletrônicos estadunidense, e a recém-concluída
         reforma da Academia de Ciências e Artes Tropicais (ACAT).</p>
-    <div class="music">
-        <iframe style="border-radius:12px"
-            src="https://open.spotify.com/embed/track/3qfWtjRmq0jJ1WuEzT33jJ?utm_source=generator" width="100%"
-            height="152" frameBorder="0" allowfullscreen=""
-            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-    </div>
+    <audio controls src="./static/audio/videoplayback.m4a" autoplay muted id="music" style="display: none;" loop></audio>
     <hr>
-    <h1>Conheça nossa cidade</h1>
+    <h1 id="meet">Conheça nossa cidade</h1>
     <div class="anim-esq bloco">
         <h2 style="font-size: 30px;">Fundação de Corumbiara</h2>
         <img alt="Corumbiara"
@@ -75,14 +82,15 @@
         </p>
     </div>
     <hr style="clear: both;">
-    <h2>Sistema</h2>
+    <h2 id="sist-title">Sistema</h2>
 
     <div id="sistema">
         <p id="sist-infor">
             &nbsp;&nbsp;Under the Mask é um RPG de mistério e ação, com alguns toques de tensão e terror. O sistema
             utilizado na
             campanha será Call of Cthulhu, um sistema de RPG inspirado nas obras de H.P.
-            Lovrecraft. Os jogadores assumem o papel de investigadores (aqui representados pelos cidadãos e estudantes da cidade) que se
+            Lovrecraft. Os jogadores assumem o papel de investigadores (aqui representados pelos cidadãos e estudantes
+            da cidade) que se
             deparam com acontecimentos sobrenaturais e
             mistérios sombrios.
             Clicando na capa você pode baixar uma ficha de personagem automatizada e o Livro do Investigador para
@@ -94,7 +102,7 @@
         </a>
     </div>
     <hr style="margin-top: 80px;">
-    <h2>Criação de Personagem</h2>
+    <h2 id="cc">Criação de Personagem</h2>
     <div class="bloco" id="c-rules">
         <p>Os jogadores devem seguir algumas regras na criação de personagem, são elas:</p>
         <ul>
@@ -118,7 +126,7 @@
     </sub>
     <div style="height: 45px;"></div>
     <hr style="clear: both;">
-    <h2>Id: Uma força latente</h2>
+    <h2 id="id-t">Id: Uma força latente</h2>
     <div class="bloco types" id="id">
         <p>
             &nbsp;&nbsp;De acordo com a psicanálise, o id é uma das três partes principais da personalidade humana,
@@ -130,16 +138,18 @@
             inexplorado dentro do id, uma forma de energia psíquica primitiva, que não só dirige nossos
             desejos inconscientes, mas também possui o potencial de manipular a percepção e a realidade. Aqueles que
             dominam esse poder interno são conhecidos como despertos.<br>
-            &nbsp;&nbsp;Figuras históricas como Michel de Nostradamus, Rasputin, Adolf Hitler, Isaac Newton, o próprio D. Pedro II e outros com
+            &nbsp;&nbsp;Figuras históricas como Michel de Nostradamus, Rasputin, Adolf Hitler, Isaac Newton, o próprio
+            D. Pedro II e outros com
             capacidades além do comum eram na verdade despertos. Apesar disso, a maior parte da população mundial não
             tem ciência desse poder.<br>
-            &nbsp;&nbsp;Não se sabe ao certo quais são os requisitos ou os meios para se tornar um desperto, porém sabe-se que aqueles que
+            &nbsp;&nbsp;Não se sabe ao certo quais são os requisitos ou os meios para se tornar um desperto, porém
+            sabe-se que aqueles que
             alcançam esse estado mental são capazes de alterar o rumo da história humana.
 
         </p>
     </div>
     <hr style="margin-top: 35px;">
-    <h2>Classificação dos Id's</h2>
+    <h2 id="types-id">Classificação dos Id's</h2>
     <div class="bloco" id="types">
         <p>Apesar de cada Id ser único, é possível notar semelhanças em certos grupos de despertos. Então, buscando uma
             melhor organização, foram criadas 22 categorias para os diferentes tipos de Id's. Posteriormente essa
@@ -148,14 +158,14 @@
             <h3>O Louco</h3>
             <div class="back" id="louco" data-index="0"></div>
             <p class="desc" data-index="0">A manipulação da matéria e do espaço<br>
-            Despertos notáveis: Harry Houdini e David Blane</p>
+                Despertos notáveis: Harry Houdini e David Blane</p>
         </div>
         <hr>
         <div>
             <h3>O Mago</h3>
             <div class="back" id="mago" data-index="1"></div>
             <p class="desc" data-index="1">Os elementos do mundo sob seu comando<br>
-                Despertos notáveis: Thomas Edison e  Wim Hof</p>
+                Despertos notáveis: Thomas Edison e Wim Hof</p>
         </div>
         <hr>
         <div>
@@ -301,7 +311,8 @@
     <hr>
     <footer>
         Tem direito reservado nenhum nessa merda © 2024
-        <br>Cartas por Senkai Yami © 2024
+        <br>Cartas por Senkai Yami<br>
+        Música por Shoji Meguro, Cover Noah Thys
     </footer>
     <script>
         // Seleciona todas as divs com a classe 'box' e 'desc'
@@ -320,6 +331,30 @@
                 });
             });
         });
+        //função pra barra de navegação
+        function mostrar() {
+            let nav = document.getElementsByName("nav-itens");
+            for (navs of nav) {
+                if (navs.classList.contains("hide")) {
+                    navs.classList.toggle("show");
+                };
+            };
+        };
+        function mute(){
+            let audio = document.getElementById("volume");
+            const music = document.getElementById("music");
+            if (audio.classList.contains("muted")) {
+                    audio.classList.toggle("n-mute");
+                    // alert("foi");
+                    if(music.muted){
+                        music.volume = 1;
+                        music.muted = false;
+                    }else{
+                        music.muted = true;
+                    }  
+                };
+        };
+
     </script>
 </body>
 
