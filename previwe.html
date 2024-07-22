@@ -346,15 +346,13 @@
             if (audio.classList.contains("muted")) {
                     audio.classList.toggle("n-mute");
                     // alert("foi");
-                    if(music.muted){
-                        music.volume = 1;
-                        music.muted = false;
+                    if(music.paused){
+                        music.play();
                     }else{
-                        music.muted = true;
+                        music.pause();
                     }  
                 };
         };
-
     </script>
 </body>
 

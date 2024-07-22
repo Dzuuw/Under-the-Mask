@@ -31,7 +31,7 @@
         população continua em alerta. Há pouco tempo a cidade sofreu um <i>boom</i> no seu desenvolvimento graças à
         recente chegada de uma filial da Faraday Inc., uma fabricante de eletrônicos estadunidense, e a recém-concluída
         reforma da Academia de Ciências e Artes Tropicais (ACAT).</p>
-    <audio controls src="../static/audio/videoplayback.m4a" autoplay muted id="music" style="display: none;" loop></audio>
+    <audio controls src="../static/audio/videoplayback.m4a" id="music" style="display: none;" loop></audio>
     <hr>
     <h1 id="meet">Conheça nossa cidade</h1>
     <div class="anim-esq bloco">
@@ -346,11 +346,10 @@
             if (audio.classList.contains("muted")) {
                     audio.classList.toggle("n-mute");
                     // alert("foi");
-                    if(music.muted){
-                        music.volume = 1;
-                        music.muted = false;
+                    if(music.paused){
+                        music.play();
                     }else{
-                        music.muted = true;
+                        music.pause();
                     }  
                 };
         };
