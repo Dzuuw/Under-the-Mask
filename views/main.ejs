@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./static/css/style.css">
+    <link rel="stylesheet" href="../static/css/style.css">
     <title>Under the Mask</title>
 </head>
 
@@ -14,13 +14,13 @@
     </div>
     <hr>
     <div class="nav">
-        <button id="nav-btn" onclick="mostrar()" class="nav-link nav-btn"><img src="./static/icons/list.svg"></button>
+        <button id="nav-btn" onclick="mostrar()" class="nav-link nav-btn"><img src="../static/icons/list.svg"></button>
             <a class="nav-link hide" name="nav-itens" href="#meet">Conheça nossa cidade</a>
             <a class="nav-link hide" name="nav-itens" href="#sist-title">Sistema</a>
             <a class="nav-link hide" name="nav-itens" href="#cc">Criação de Personagem</a>
             <a class="nav-link hide" name="nav-itens" href="#id-t">Id</a>
             <a class="nav-link hide" name="nav-itens" href="#types-id">Classificação</a>
-        <button class="nav-link nav-btn" onclick="mute()">
+        <button class="nav-link nav-btn hide" onclick="mute()" name="nav-itens">
             <div class="muted" id="volume"></div>
         </button>
     </div>
@@ -31,7 +31,7 @@
         população continua em alerta. Há pouco tempo a cidade sofreu um <i>boom</i> no seu desenvolvimento graças à
         recente chegada de uma filial da Faraday Inc., uma fabricante de eletrônicos estadunidense, e a recém-concluída
         reforma da Academia de Ciências e Artes Tropicais (ACAT).</p>
-    <audio controls src="./static/audio/videoplayback.m4a" autoplay muted id="music" style="display: none;" loop></audio>
+    <audio controls src="../static/audio/videoplayback.m4a" autoplay muted id="music" style="display: none;" loop></audio>
     <hr>
     <h1 id="meet">Conheça nossa cidade</h1>
     <div class="anim-esq bloco">
@@ -66,7 +66,7 @@
     </div>
     <div class="bloco">
         <h2 style="font-size: 30px;">Faraday Incorporation</h2>
-        <img alt="Faraday Inc." src="./static/file/Sem título.jpg">
+        <img alt="Faraday Inc." src="../static/file/Sem título.jpg">
         <p> &nbsp;&nbsp;É com grande entusiasmo e orgulho que anunciamos a abertura da nova filial da Faraday
             Incorporation em
             Corumbiara, uma
@@ -96,7 +96,7 @@
             Clicando na capa você pode baixar uma ficha de personagem automatizada e o Livro do Investigador para
             auxiliar na criação do personagem e compreensão das regras do jogo.
         </p>
-        <a href="./static/file/Coc.zip" download="Livro e Ficha CoC">
+        <a href="../static/file/Coc.zip" download="Livro e Ficha CoC">
             <img id="cover" alt="Call of Cthulhu"
                 src="https://cdn11.bigcommerce.com/s-9zhx02uo/images/stencil/1280x1280/products/1883/2120/cha23136_catalog__57296.1520656047.png?c=2F">
         </a>
