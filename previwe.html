@@ -15,11 +15,11 @@
     <hr>
     <div class="nav">
         <button id="nav-btn" onclick="mostrar()" class="nav-link nav-btn"><img src="./static/icons/list.svg"></button>
-            <a class="nav-link hide" name="nav-itens" href="#meet">Conheça nossa cidade</a>
-            <a class="nav-link hide" name="nav-itens" href="#sist-title">Sistema</a>
-            <a class="nav-link hide" name="nav-itens" href="#cc">Criação de Personagem</a>
-            <a class="nav-link hide" name="nav-itens" href="#id-t">Id</a>
-            <a class="nav-link hide" name="nav-itens" href="#types-id">Classificação</a>
+        <a class="nav-link hide" name="nav-itens" href="#meet">Conheça nossa cidade</a>
+        <a class="nav-link hide" name="nav-itens" href="#sist-title">Sistema</a>
+        <a class="nav-link hide" name="nav-itens" href="#cc">Criação de Personagem</a>
+        <a class="nav-link hide" name="nav-itens" href="#id-t">Id</a>
+        <a class="nav-link hide" name="nav-itens" href="#types-id">Classificação</a>
         <button class="nav-link nav-btn hide" onclick="mute()" name="nav-itens">
             <div class="muted" id="volume"></div>
         </button>
@@ -31,7 +31,8 @@
         população continua em alerta. Há pouco tempo a cidade sofreu um <i>boom</i> no seu desenvolvimento graças à
         recente chegada de uma filial da Faraday Inc., uma fabricante de eletrônicos estadunidense, e a recém-concluída
         reforma da Academia de Ciências e Artes Tropicais (ACAT).</p>
-    <audio controls src="./static/audio/videoplayback.m4a" autoplay muted id="music" style="display: none;" loop></audio>
+    <audio controls src="./static/audio/videoplayback.m4a" autoplay muted id="music" style="display: none;"
+        loop></audio>
     <hr>
     <h1 id="meet">Conheça nossa cidade</h1>
     <div class="anim-esq bloco">
@@ -108,8 +109,9 @@
         <ul>
             <li>Os personagens devem estar relacionados com a ACAT, sejam alunos ou funcionários, com excessão do cargo
                 de diretor;</li>
-            <li>Os personagens podem estar relacionados indiretamente com a instituição, sob pretexto de serem pais
-                de alunos, filhos de funcionários, etc;</li>
+            <li>Os personagens podem estar relacionados indiretamente com a instituição, sob pretexto de serem pais ou
+                filhos
+                de alunos ou funcionários, etc;</li>
             <li>A idade mínima dos personagens é de 10 anos;</li>
             <li>A idade máxima dos personagens é de 60 anos;</li>
             <li>Personagens estrangeiros são permitidos;</li>
@@ -340,18 +342,18 @@
                 };
             };
         };
-        function mute(){
+        function mute() {
             let audio = document.getElementById("volume");
             const music = document.getElementById("music");
             if (audio.classList.contains("muted")) {
-                    audio.classList.toggle("n-mute");
-                    // alert("foi");
-                    if(music.paused){
-                        music.play();
-                    }else{
-                        music.pause();
-                    }  
-                };
+                audio.classList.toggle("n-mute");
+                // alert("foi");
+                if (music.paused) {
+                    music.play();
+                } else {
+                    music.pause();
+                }
+            };
         };
     </script>
 </body>
