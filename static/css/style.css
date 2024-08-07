@@ -1,44 +1,35 @@
 :root{
     --red: rgb(173, 58, 58);
+    --smallTxt: 18px;
+    --brdBlack: black 1px solid;
+    --brdWhite: white 1px solid;
 }
 
 /* Celulares */
 @media screen and (max-width: 600px) {
-    body {
-        background-color: #000000;
-        color: white;
-        margin: 0;
-
-    }
     .nav{
         background-color: var(--red);
         text-align: center;
     }
     .nav-link{
-        border: black 1px solid;
+        border: var(--brdBlack);
         text-decoration: none;
         color: white;
-        height: 35px;
-        padding: 5px;
+        height: 30px;
+        padding-top: 5px;
     }
 
     .nav-btn{
         width: 100%;
         background-color: transparent;
-        border: black 1px solid;
+        padding: 5px;
     }
+
     .muted{
         height: 100%;
         background-image: url("../icons/volume-mute-fill.svg");
         background-repeat: no-repeat;
         background-position: center;
-    }
-
-    .hide{
-        display: none;
-    }
-    .show{
-        display: block;
     }
 
     #titulo {
@@ -47,14 +38,14 @@
         background-blend-mode: multiply;
         background-repeat: no-repeat;
         background-position: center;
-        background-size: 900px;
+        background-size: 850px 450px;
         height: 400px;
         margin: 0px;
         padding: 0px;
     }
 
     sub {
-        font-size: 16px;
+        font-size: var(--smallTxt);
         width: 60%;
         margin: auto;
         display: block;
@@ -75,10 +66,18 @@
         font-size: 45px;
         margin-bottom: 35px;
     }
-
+    h3 {
+        width: 66%;
+        margin: auto;
+        text-align: center;
+        font-size: 35px;
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+    
     ul {
         list-style: decimal-leading-zero;
-        font-size: 20px;
+        font-size: var(--smallTxt);
         margin-bottom: 20px;
     }
 
@@ -91,7 +90,7 @@
         text-align-last: center;
         width: 87%;
         margin: 15px auto;
-        font-size: 20px;
+        font-size: var(--smallTxt);
     }
 
     div.bloco {
@@ -121,7 +120,7 @@
         width: 81%;
         text-align: left;
         margin: 30px auto;
-        font-size: 22px;
+        font-size: var(--smallTxt);
     }
 
     div.bloco img {
@@ -143,14 +142,6 @@
 
     
 
-    h3 {
-        width: 66%;
-        margin: auto;
-        text-align: center;
-        font-size: 35px;
-        margin-bottom: 25px;
-        margin-top: 25px;
-    }
 
     .back {
         background-image: url("../tarot/senkai-yami-cover.jpg");
@@ -180,10 +171,6 @@
 }
 /* Tablete (Retrato) */
 @media screen and (min-width: 601px) and (max-width: 900px) {
-    body {
-        background-color: #000000;
-        color: white;
-    }
 
     #titulo {
         background-image: url("https://i.pinimg.com/originals/4a/13/e1/4a13e1d80f844602befbf80076ddc097.jpg");
@@ -356,23 +343,10 @@
         background-image: url("../icons/volume-up-fill.svg");
     }
 
-    .hide{
-        display: none;
-    }
-    .show{
-        display: block;
-    }
-
-
 }
 /* Tablets (Landscape) */
 @media screen and (min-width: 901px) and (max-width: 1200px) {
-    body {
-        background-color: #000000;
-        color: white;
-        margin: 0;
 
-    }
 
     #titulo {
         background-image: url("https://i.pinimg.com/originals/4a/13/e1/4a13e1d80f844602befbf80076ddc097.jpg");
@@ -545,24 +519,9 @@
     .n-mute{
         background-image: url("../icons/volume-up-fill.svg");
     }
-
-    .hide{
-        display: block;
-    }
-    .show{
-        display: block;
-    }
-
-
 }
 /* Desktops (Pequenos) */
 @media screen and (min-width: 1201px) and (max-width: 1400px) {
-    body {
-        background-color: #000000;
-        color: white;
-        margin: 0;
-
-    }
 
     #titulo {
         background-image: url("https://i.pinimg.com/originals/4a/13/e1/4a13e1d80f844602befbf80076ddc097.jpg");
@@ -750,22 +709,9 @@
         background-image: url("../icons/volume-up-fill.svg");
     }
 
-    .hide{
-        display: block;
-    }
-    .show{
-        display: block;
-    }
-
 }
 /* Desktops (Grandes) */
 @media screen and (min-width: 1400px) {
-    body {
-        background-color: #000000;
-        color: white;
-        margin: 0;
-
-    }
 
     #titulo {
         background-image: url("https://i.pinimg.com/originals/4a/13/e1/4a13e1d80f844602befbf80076ddc097.jpg");
@@ -982,13 +928,6 @@
     .n-mute{
         background-image: url("../icons/volume-up-fill.svg");
     }
-
-    .hide{
-        display: block;
-    }
-    .show{
-        display: block;
-    }
 }
 /* Geral */
 #louco.front {  
@@ -1065,4 +1004,17 @@
 
 .n-mute{
     background-image: url("../icons/volume-up-fill.svg");
+}
+
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+.hide{
+    display: none;
+}
+.show{
+    display: block;
 }

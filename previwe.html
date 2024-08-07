@@ -31,7 +31,7 @@
         população continua em alerta. Há pouco tempo a cidade sofreu um <i>boom</i> no seu desenvolvimento graças à
         recente chegada de uma filial da Faraday Inc., uma fabricante de eletrônicos estadunidense, e a recém-concluída
         reforma da Academia de Ciências e Artes Tropicais (ACAT).</p>
-    <audio controls src="./static/audio/videoplayback.m4a" autoplay muted id="music" style="display: none;"
+    <audio controls src="./static/audio/videoplayback.m4a" autoplay muted id="music" style="display:none;"
         loop></audio>
     <hr>
     <h1 id="meet">Conheça nossa cidade</h1>
@@ -316,46 +316,7 @@
         <br>Cartas por Senkai Yami<br>
         Música por Shoji Meguro, Cover Noah Thys
     </footer>
-    <script>
-        // Seleciona todas as divs com a classe 'box' e 'desc'
-        const boxes = document.querySelectorAll('.back');
-        const descs = document.querySelectorAll('.desc');
-
-        // Adiciona um ouvinte de eventos a cada div 'box'
-        boxes.forEach(function (box) {
-            box.addEventListener('click', function () {
-                const index = this.getAttribute('data-index');
-                this.classList.toggle('front');
-                descs.forEach(function (desc) {
-                    if (desc.getAttribute('data-index') === index) {
-                        desc.classList.toggle('visible');
-                    }
-                });
-            });
-        });
-        //função pra barra de navegação
-        function mostrar() {
-            let nav = document.getElementsByName("nav-itens");
-            for (navs of nav) {
-                if (navs.classList.contains("hide")) {
-                    navs.classList.toggle("show");
-                };
-            };
-        };
-        function mute() {
-            let audio = document.getElementById("volume");
-            const music = document.getElementById("music");
-            if (audio.classList.contains("muted")) {
-                audio.classList.toggle("n-mute");
-                // alert("foi");
-                if (music.paused) {
-                    music.play();
-                } else {
-                    music.pause();
-                }
-            };
-        };
-    </script>
+    <script src="./static/scripts/script.js"></script>
 </body>
 
 </html>
